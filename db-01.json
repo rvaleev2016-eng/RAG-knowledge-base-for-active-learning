@@ -1,0 +1,6 @@
+{
+  "id": "db-01",
+  "category": "System",
+  "title": "Структура active_learning_db",
+  "content": "База active_learning_db хранит datasets, models, experiments, candidates и iterations."
+}

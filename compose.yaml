@@ -1,0 +1,10 @@
+services:
+  rag:
+    build: .
+    ports:
+      - "127.0.0.1:8015:8015"
+    volumes:
+      - chroma_data:/app/chroma_data
+    restart: unless-stopped
+volumes:
+  chroma_data:

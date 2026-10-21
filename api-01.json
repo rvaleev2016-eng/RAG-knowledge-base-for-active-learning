@@ -1,0 +1,6 @@
+{
+  "id": "api-01",
+  "category": "System",
+  "title": "REST API системы активного обучения",
+  "content": "REST API предоставляет health, search и ask для проверки сервиса и обращения к базе знаний."
+}

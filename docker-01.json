@@ -1,0 +1,6 @@
+{
+  "id": "docker-01",
+  "category": "Deployment",
+  "title": "Docker-развёртывание RAG-сервиса",
+  "content": "Dockerfile описывает образ приложения, а Compose задаёт сервис, порт и том хранения индекса."
+}
