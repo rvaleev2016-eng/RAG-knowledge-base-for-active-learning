@@ -4,7 +4,7 @@ import chromadb
 from sentence_transformers import SentenceTransformer
 
 COLLECTION = "active_learning_kb"
-DATA_DIR = Path(__file__).parent / "kb"
+DATA_DIR = Path(__file__).parent
 DB_DIR = str(Path(__file__).parent / "chroma_data")
 model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 client = chromadb.PersistentClient(path=DB_DIR)
