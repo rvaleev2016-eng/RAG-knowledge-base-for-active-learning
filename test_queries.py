@@ -1,4 +1,7 @@
+from indexer import index_articles
 from retriever import search
+
+index_articles()
 
 TESTS = [
  ("Как выбрать объекты, в которых модель не уверена?", "uncertainty-01"),
